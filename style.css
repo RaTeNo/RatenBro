@@ -1,0 +1,65 @@
+/*
+Theme Name: RatenBro
+Theme URI: http://www.free-lance.ru/users/RaTeN
+Author: RaTeN
+Author URI: http://www.free-lance.ru/users/RaTeN
+Description: Freelance RaTeN 
+Version: 10.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: all-in
+Text Domain: RatenBro
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+.smiles img.wp-smiley, .smiles img.emoji{float:left;height:26px !important;margin-bottom:10px;margin-right:5px;width:auto !important;}
+.sticky{position:fixed;}
+.stop{position:relative;z-index:101;}
+.notCorrect{border:1px solid red !important;}
+.posts .post .desc .aligncenter, .posts .post .desc div.aligncenter{display:block;margin:5px auto;}
+.posts .post .desc .alignright{float:right;margin:5px 0 20px 20px;}
+.posts .post .desc .alignleft{float:left;margin:5px 20px 20px 0;}
+.posts .post .desc a img.alignright{float:right;margin:5px 0 20px 20px;}
+.posts .post .desc a img.alignnone{margin:5px 20px 20px 0;}
+.posts .post .desc a img.alignleft{float:left;margin:5px 20px 20px 0;}
+.posts .post .desc a img.aligncenter{display:block;margin-left:auto;margin-right:auto;}
+.posts .post .desc .wp-caption{background:#fff none repeat scroll 0 0;border:1px solid #f0f0f0;max-width:96%;padding:5px 3px 10px;text-align:center;}
+.posts .post .desc .wp-caption.alignnone{margin:5px 20px 20px 0;}
+.posts .post .desc .wp-caption.alignleft{margin:5px 20px 20px 0;}
+.posts .post .desc .wp-caption.alignright{margin:5px 0 20px 20px;}
+.posts .post .desc .wp-caption img{border:0 none;height:auto;margin:0;max-width:98.5%;padding:0;width:auto;}
+.posts .post .desc .wp-caption p.wp-caption-text{font-size:11px;line-height:17px;margin:0;padding:0 4px 5px;}
+.post-ratings{color:#302c2a;font:14px Ubuntu;margin-bottom:15px;}
+.subscribe-to-comments a{color:#5b938c;font:14px Ubuntu;}
+.comment-reply-link:hover{cursor:pointer;}
+#cancel-comment-reply-link{color:#4288b7;font-size:20px;margin-left:10px;text-decoration:underline;}
+.text_block a{color:#767676;}
+.text_block a:hover{text-decoration:none;}
+.hed{text-decoration:none;}
+#comments .comment .name:hover, aside .users .item .name:hover{cursor:pointer;}
+.feedback .block_title{color:#000;font:700 20px/20px PT Sans;margin-bottom:15px;}
+.feedback form .box{padding:12px 12px 20px;background:#e1dbd5;box-shadow:0 0 5px rgba(0,0,0,.31);margin-bottom:15px;}
+.feedback form .line{margin-bottom:10px;}
+.feedback form .line.left,
+.feedback form .line.right{width:49%;}
+.feedback form .input{height:39px;width:100%;background:#fff;border:1px solid #c4c4c4;color:#000;font:italic 16px PT Sans;padding:0 12px 3px;border-radius:3px;box-shadow:inset 0 0 5px rgba(0,0,0,.47), 0 1px 1px rgba(255,255,255,.9);}
+.feedback form textarea{height:139px;width:100%;background:#fff;border:1px solid #c4c4c4;color:#000;font:italic 16px PT Sans;padding:7px 12px;border-radius:3px;box-shadow:inset 0 0 5px rgba(0,0,0,.47), 0 1px 1px rgba(255,255,255,.9);resize:none;display:block;}
+.feedback form .submit{padding-top:10px;}
+.feedback form .submit_btn{display:block;width:189px;height:39px;cursor:pointer;color:#fff;font:700 15px PT Sans;text-shadow:0 1px rgba(0,0,0,.44);border:none;background:rgba(0, 0, 0, 0) url("../images/btn_subscribe.png") no-repeat scroll 0 0;}
+.feedback form .submit_btn:hover{background-position:0 -39px;}
+.posts .post .desc h2, .posts .post .desc h3, .posts .post .desc h4, .posts .post .desc h5{margin-bottom:20px;}
+.posts .post .desc img{max-width:100%;height: auto;}
+.posts .post .desc iframe{max-width:100%;}
+
+@media (max-width:1023px){
+.feedback{padding:0 12px;}
+.feedback form .line.left,
+.feedback form .line.right{width:100%;}
+.feedback .submit{width:100%;}
+.feedback form .submit_btn{width:100%;background-size:100% 78px;}
+}
+.sub_category{
+margin-left:20px;
+}
+
