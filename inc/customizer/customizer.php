@@ -1049,12 +1049,12 @@ function raten_customize_register( $wp_customize ) {
     /********************************************************************
      * Подвал
      */
-    /*$wp_customize->add_section( 'raten_structure_footer', array(
+    $wp_customize->add_section( 'raten_structure_footer', array(
         'title'             => 'Подвал',
         'description'       => 'В данной секции Вы можете настроить внешний вид и тексты подвала, добавить счетчики',
         'panel'             => 'panel_structure',
         'capability'        => 'edit_theme_options',
-    ));*/
+    ));
 
 
     // копирайт

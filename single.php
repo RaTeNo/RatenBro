@@ -9,6 +9,8 @@
                                    <?php get_template_part( 'template-parts/content', 'single' ); ?>
                                 <?php endwhile; endif; ?>                               
                                 <?php comments_template(); ?>
+
+                                <?php echo raten_get_option( 'code_after_content' ) ?>
                             </div> 
 
                             <div class="article__right-margin " data-sticky_column>
